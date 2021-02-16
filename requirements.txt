@@ -6,3 +6,4 @@ python-Levenshtein==0.12.2
 pywin32==300
 pywin32-ctypes==0.2.0
 xlwings==0.22.2
+safexl==0.0.7
