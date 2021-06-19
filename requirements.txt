@@ -1,7 +1,5 @@
 more-itertools==8.8.0
 networkx==2.5.1
-pep8==1.7.1
-PyInstaller==4.3
 python-Levenshtein==0.12.2
 pywin32==301
 pywin32-ctypes==0.2.0
