@@ -9,3 +9,5 @@ with open("requirements.txt") as f:
             continue
         pkg_name, version = line.split("==")
         call(f"pip install --upgrade {pkg_name}", shell=True)
+
+# call('python -m playwright install')
