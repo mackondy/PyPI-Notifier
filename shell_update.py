@@ -6,10 +6,9 @@ def pip_update_pkg(pkg_name: str):
         if line.startswith("Successfully installed"):
             print(line)
     if pkg_name == 'playwright':
-        result = run('python -m playwright install chromium')
-        print(result.stdout)
+        run('python -m playwright install chromium') # run directly
 
-run("python -m pip install --upgrade pip")
+run("python -m pip install --upgrade pip") # run directly
 
 with open("requirements.txt") as f:
     for line in f:

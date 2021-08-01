@@ -6,4 +6,4 @@ pywin32-ctypes==0.2.0
 xlwings==0.24.5
 safexl==0.0.7
 keyring==23.0.1
-playwright==1.13.0
+playwright==1.13.1
