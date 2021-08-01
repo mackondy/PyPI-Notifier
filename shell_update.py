@@ -6,7 +6,7 @@ def pip_update_pkg(pkg_name: str):
         return
     print(result.stdout)
     if pkg_name == 'playwright':
-        run('python -m playwright install')
+        run('python -m playwright install chromium')
 
 run("python -m pip install --upgrade pip")
 
