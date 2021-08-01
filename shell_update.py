@@ -2,11 +2,14 @@ from subprocess import run
 
 def pip_update_pkg(pkg_name: str):
     result = run(f"pip install --upgrade {pkg_name}", shell=True, capture_output=True, text=True)
-    if result.stdout.startswith("Requirement already satisfied"):
-        return
-    print(result.stdout)
+    # if result.stdout.startswith("Requirement already satisfied"):
+    #     return
+    for line in result.stdout.split('\n'):
+        if line.startswith("Successfully installed"):
+            print(line)
     if pkg_name == 'playwright':
-        run('python -m playwright install chromium')
+        result = run('python -m playwright install chromium')
+        print(result.stdout)
 
 run("python -m pip install --upgrade pip")
 
