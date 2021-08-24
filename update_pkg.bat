@@ -1,0 +1,1 @@
+C:\Users\jge\AppData\Local\Programs\Python\Python39\python.exe "C:\Users\jge\Documents\Python Scripts\PyPI-Notifier/shell_update.py"

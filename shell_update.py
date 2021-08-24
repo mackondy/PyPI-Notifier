@@ -17,3 +17,5 @@ with open("requirements.txt") as f:
             continue
         pkg_name, version = line.split("==")
         pip_update_pkg(pkg_name)
+
+print("Update Done!")
