@@ -3,8 +3,8 @@ networkx==2.6.3
 python-Levenshtein==0.12.2
 pywin32==303
 pywin32-ctypes==0.2.0
-xlwings==0.25.3
+xlwings==0.26.1
 safexl==0.0.7
 keyring==23.5.0
-playwright==1.18.1
+playwright==1.18.2
 pyserial==3.5
