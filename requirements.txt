@@ -1,10 +1,10 @@
 more-itertools==8.13.0
-networkx==2.8
+networkx==2.8.4
 python-Levenshtein==0.12.2
 pywin32==303
 pywin32-ctypes==0.2.0
-xlwings==0.27.7
+xlwings==0.27.10
 safexl==0.0.7
-keyring==23.5.0
+keyring==23.6.0
 playwright==1.21.0
 pyserial==3.5
