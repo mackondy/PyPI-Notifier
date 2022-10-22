@@ -1,5 +1,5 @@
 more-itertools==8.13.0
-networkx==2.8.4
+networkx==2.8.5
 python-Levenshtein==0.12.2
 pywin32==303
 pywin32-ctypes==0.2.0
@@ -9,3 +9,5 @@ keyring==23.7.0
 playwright==1.23.1
 pyserial==3.5
 teroshdl==2.1.2
+chardet==5.0.0
+python-Levenshtein-wheels==0.13.2
